@@ -1,0 +1,19 @@
+{
+  "name": "movie-db",
+  "version": "1.0.0",
+  "description": "A movie information and review website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bayley Mauger",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.2",
+    "random-material-color": "^1.0.3",
+    "request": "^2.83.0"
+  }
+}
