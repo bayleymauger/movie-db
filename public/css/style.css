@@ -86,6 +86,7 @@
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
+    
   .label {
     border: 1px solid #000;
   }
@@ -4164,7 +4165,7 @@ ul {
 }
 .movie-items .movie-item .hvr-inner a {
   font-family: 'Dosis', sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   color: #abb7c4;
   font-weight: bold;
   text-transform: uppercase;
@@ -4228,10 +4229,6 @@ ul {
 }
 .cate .orange {
   background-color: #ec5a1a;
-}
-
-.cate .red {
-  background-color: #EE686A;
 }
 .movie_list .movie-item-style-2 img,
 .movie_single .movie-item-style-2 img,
@@ -4820,7 +4817,7 @@ ul {
   }
 }
 .tabs ul.tabs-mv li a {
-  font-size: 17px;
+  font-size: 18px;
   padding-bottom: 15px;
   border-bottom: 3px solid transparent;
 }
@@ -8287,4 +8284,8 @@ footer.full-width-ft .ft-copyright {
   color: #8c9296;
   font-family: 'Dosis', sans-serif;
   font-weight: 700;
+}
+
+img.logo {
+    max-width: 150px;
 }
