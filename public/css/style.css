@@ -4165,7 +4165,7 @@ ul {
 }
 .movie-items .movie-item .hvr-inner a {
   font-family: 'Dosis', sans-serif;
-  font-size: 14px;
+  font-size: 11px;
   color: #abb7c4;
   font-weight: bold;
   text-transform: uppercase;
@@ -4817,7 +4817,7 @@ ul {
   }
 }
 .tabs ul.tabs-mv li a {
-  font-size: 18px;
+  font-size: 16px;
   padding-bottom: 15px;
   border-bottom: 3px solid transparent;
 }
