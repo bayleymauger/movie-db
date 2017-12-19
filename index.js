@@ -31,15 +31,15 @@ app.get("/", function(req, res) {
                                      if(!error && response.statusCode == 200) {
                                          let mostRevenue = JSON.parse(body);
                                          res.render("index", {data: data, genres: genres, randomMC: randomMC, upcoming: upcoming, topRated: topRated, mostRevenue: mostRevenue});
-                                     } 
+                                     }
                                   });
-                              } 
+                              }
                            });
-                       } 
+                       }
                     });
-                } 
+                }
             });
-        } 
+        }
     });
 });
 
@@ -64,7 +64,7 @@ app.get("/movie/:id", function(req, res) {
         }
     });
 });
-    
-app.listen(process.env.PORT, process.env.IP, function() {
+
+app.listen(3000, function() {
     console.log("Server has started");
 });
